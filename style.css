@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, p, table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #1FBADB, #137B9E); /* Gradient background using the specified color and its shade */
+  background-image: url('Images/2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #000000; /* Adjust text color for better readability on the background image */
+}
+
+
+/* Header styles */
+header {
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for better contrast with text */
+  color: #004757; /* Matching color for header text */
+  text-align: center;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 2em;
+}
+
+/* Content styles */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for better contrast with text */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.images {
+  text-align: center;
+}
+
+.hostel-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hostel-image:hover {
+  transform: scale(1.1);
+}
+
+.image-caption {
+  font-style: italic;
+  color: #777;
+}
+
+/* Facilities section styles */
+.facilities-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for better contrast with text */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.facilities-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border: 1px solid #ddd; /* Added border */
+}
+
+.facilities-table th, .facilities-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.facilities-table th {
+  background-color: #f2f2f2;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for better contrast with text */
+  color: #1FBADB; /* Matching color for footer text */
+}
+
+/* Link styles */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.video-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for better contrast with text */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.hostel-video {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hostel-video:hover {
+  transform: scale(1.1);
+}
